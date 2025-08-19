@@ -1,0 +1,29 @@
+{
+  "lang": "es",
+  "name": "ESPENotes",
+  "short_name": "ESPENotes",
+  "description": "Aplicacion que permite tomar notas de manera sencilla",
+  "background_color": "#1a4d80",
+  "theme_color": "#1a4d80",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url":"/T3_App_Notes/",
+  "scope": "/T3_App_Notes/",
+  "icons": [
+    {
+      "src": "src/assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "src/assets/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "src/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
