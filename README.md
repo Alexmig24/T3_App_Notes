@@ -98,17 +98,32 @@ T3_App_Notes/
 ```
 
 ## Capturas de pantalla
-- Vista de la PWA desde el navegador.
-![ESPENotes Logo](src/assets/imgs/cap1.jpg)
-- Instalación de la PWA al celular mediante la opcino antes configurada
-![ESPENotes Logo](src/assets/imgs/cap2.jpg)
-![ESPENotes Logo](src/assets/imgs/cap3.jpg)
-- Apertura de la PWA desde el celular sin navegador.
-![ESPENotes Logo](src/assets/imgs/cap4.jpg)
-![ESPENotes Logo](src/assets/imgs/cap5.jpg)
-- Registro de nuevas notas con persistencia ne localStorage
-![ESPENotes Logo](src/assets/imgs/cap6.jpg)
-![ESPENotes Logo](src/assets/imgs/cap7.jpg)
-- Eliminación de las notas
-![ESPENotes Logo](src/assets/imgs/cap8.jpg)
-![ESPENotes Logo](src/assets/imgs/cap9.jpg)
+
+- Vista de la PWA desde el navegador.  
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="src/assets/imgs/cap1.jpg" alt="ESPENotes Logo" width="45%">
+</div>
+
+- Instalación de la PWA al celular mediante la opción antes configurada  
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="src/assets/imgs/cap2.jpg" alt="ESPENotes Logo" width="45%">
+  <img src="src/assets/imgs/cap3.jpg" alt="ESPENotes Logo" width="45%">
+</div>
+
+- Apertura de la PWA desde el celular sin navegador.  
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="src/assets/imgs/cap4.jpg" alt="ESPENotes Logo" width="45%">
+  <img src="src/assets/imgs/cap5.jpg" alt="ESPENotes Logo" width="45%">
+</div>
+
+- Registro de nuevas notas con persistencia en localStorage  
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="src/assets/imgs/cap6.jpg" alt="ESPENotes Logo" width="45%">
+  <img src="src/assets/imgs/cap7.jpg" alt="ESPENotes Logo" width="45%">
+</div>
+
+- Eliminación de las notas  
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="src/assets/imgs/cap8.jpg" alt="ESPENotes Logo" width="45%">
+  <img src="src/assets/imgs/cap9.jpg" alt="ESPENotes Logo" width="45%">
+</div>
