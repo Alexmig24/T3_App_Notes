@@ -19,7 +19,7 @@ window.addEventListener("load", async () => {
       if (res) {
         console.log("Service Worker registrado correctamente.");
         const ready = await navigator.serviceWorker.ready;
-        ready.showNotification("Quick Jot", {
+        ready.showNotification("ESPENotes", {
           body: "Notificaciones activadas",
           icon: "/src/assets/icons/icon-128x128.png",
           vibrate: [100, 50, 200],
