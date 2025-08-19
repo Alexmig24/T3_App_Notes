@@ -7,7 +7,7 @@
   <title>ESPENotes</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-amber.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css" /> 
   <link rel="manifest" href="./manifest.webmanifest.json">
   <link rel="icon" type="image/png" href="./src/assets/icons/icon-128x128.png">
   <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">ESPENotes</span>
+        <span class="mdl-layout-title">✨ ESPENotes</span>
         <div class="mdl-layout-spacer"></div>
       </div>
     </header>
@@ -29,15 +29,15 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="">
           <i class="material-icons mdl-color-text--primary">home</i>
-          Ir a la página Principal
+          <span>Página Principal</span>
         </a>
         <a class="mdl-navigation__link" href="">
           <i class="material-icons mdl-color-text--primary">post_add</i>
-          Notas Rápidas
+          <span>Notas Rápidas</span>
         </a>
         <div class="mdl-navigation__link app--install" id="banner-install">
           <i class="material-icons mdl-color-text--primary">app_settings_alt</i>
-          Instalar App
+          <span>Instalar App</span>
         </div>
       </nav>
     </div>
@@ -48,23 +48,25 @@
         <div id="add-note-section" class="add-note-modal">
           <div class="add-note-content mdl-card mdl-shadow--8dp">
             <div class="mdl-card__title">
-              <h2 class="mdl-card__title-text">Nueva Nota</h2>
+              <h2 class="mdl-card__title-text">✍️ Nueva Nota</h2>
             </div>
             <div class="mdl-card__supporting-text">
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" id="note-title">
+                <input class="mdl-textfield__input" type="text" id="note-title" placeholder="Ingresa un título...">
                 <label class="mdl-textfield__label" for="note-title">Título</label>
               </div>
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <textarea class="mdl-textfield__input" id="note-text" rows="5"></textarea>
+                <textarea class="mdl-textfield__input" id="note-text" rows="5" placeholder="Escribe tu nota aquí..."></textarea>
                 <label class="mdl-textfield__label" for="note-text">Descripción</label>
               </div>
             </div>
             <div class="mdl-card__actions mdl-card--border">
               <button id="btn-save-note" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                <i class="material-icons" style="margin-right: 8px; font-size: 18px;">save</i>
                 Guardar
               </button>
               <button id="btn-cancel-note" class="mdl-button mdl-js-button mdl-button--raised">
+                <i class="material-icons" style="margin-right: 8px; font-size: 18px;">close</i>
                 Cancelar
               </button>
             </div>
@@ -72,12 +74,12 @@
         </div>
         
         <!-- Lista de notas -->
-        <div id="notes-container" class="notes-grid mdl-grid"></div>
+        <div id="notes-container" class="notes-grid"></div>
         
         <!-- Mensaje cuando no hay notas -->
         <div id="empty-notes" class="empty-notes-message">
           <i class="material-icons">note_add</i>
-          <p>No hay notas aún. ¡Agrega tu primera nota!</p>
+          <p>No hay notas aún.<br>¡Agrega tu primera nota y comienza a organizar tus ideas!</p>
         </div>
       </div>
       
